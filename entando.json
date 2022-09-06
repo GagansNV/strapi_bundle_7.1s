@@ -1,0 +1,16 @@
+{
+    "microservices": [
+        {
+            "name": "strapee_first",
+            "stack": "node",
+            "healthCheckPath": "/actuator/health",
+            "dbms": "postgresql"
+        }
+    ],
+    "microfrontends": [],
+    "svc": [],
+    "name": "strapi_new",
+    "version": "0.0.1",
+    "description": "strapi_new description",
+    "type": "bundle"
+}
